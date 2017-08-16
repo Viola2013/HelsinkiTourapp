@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="list_marginLeft">24dp</dimen>
+<dimen name="big_textSize">18sp</dimen>
+<dimen name="tab_textSize">11sp</dimen>
+<dimen name="list_item_height">90dp</dimen>
+<dimen name="list_image_width">120dp</dimen>
+<dimen name="detailed_image_width">240dp</dimen>
+<dimen name="detailed_image_height">180dp</dimen>
+<dimen name="detailed_text_padding">32dp</dimen>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <ImageView
+        android:id="@+id/list_image"
+        style="@style/ImageStyle"
+        android:layout_width="@dimen/list_image_width"
+        android:layout_height="match_parent"
+        android:src="@drawable/cathedral" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/list_marginLeft"
+        android:layout_toRightOf="@id/list_image"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list_name"
+            style="@style/BigTextStyle"
+            tools:text="Place Name" />
+
+        <TextView
+            android:id="@+id/list_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Place Address" />
+
+    </LinearLayout>
+
+</RelativeLayout>
